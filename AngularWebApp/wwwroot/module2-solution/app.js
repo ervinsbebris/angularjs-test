@@ -10,13 +10,9 @@
 	function toBuyController($scope, shoppingListCheckOffService) {
 		var controller = this;
 		controller.toBuyList = shoppingListCheckOffService.toBuyList;
-		$scope.isEverythingBought = false;
-		$scope.itemsBought = 0;
 		
 		$scope.bought = function(index) {
 			shoppingListCheckOffService.bought(index);
-			$scope.isEverythingBought = controller.toBuyList.length === 0;
-			$scope.itemsBought++;
 		}
 	};
 
@@ -24,11 +20,6 @@
 	function alreadyBoughtController($scope, shoppingListCheckOffService) {
 		var controller = this;
 		controller.alreadyBoughtList = shoppingListCheckOffService.alreadyBoughtList;
-		$scope.isNothingBought = true;
-
-		$scope.$watch('itemsBought', function() {
-			$scope.isNothingBought = controller.alreadyBoughtList.length === 0;	
-		});
 	}
 
 	function shoppingListCheckOffService() {
