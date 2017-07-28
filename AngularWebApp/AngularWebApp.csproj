@@ -7,6 +7,10 @@
   <ItemGroup>
     <Content Include="wwwroot\app.js" />
     <Content Include="wwwroot\module1-solution\app.js" />
+    <Content Include="wwwroot\module2-solution\angular.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\module2-solution\app.js" />
     <Content Include="wwwroot\WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
