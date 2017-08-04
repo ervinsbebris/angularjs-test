@@ -11,6 +11,11 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
     <Content Include="wwwroot\module2-solution\app.js" />
+    <Content Include="wwwroot\module3-solution\angular.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\module3-solution\app.js" />
+    <Content Include="wwwroot\module3-solution\foundItems.html" />
     <Content Include="wwwroot\WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
