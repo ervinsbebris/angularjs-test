@@ -1,0 +1,9 @@
+C:\Source\Temp\angularjs-test\AngularWebApp\bin\Debug\netcoreapp1.1\AngularWebApp.deps.json
+C:\Source\Temp\angularjs-test\AngularWebApp\bin\Debug\netcoreapp1.1\AngularWebApp.runtimeconfig.json
+C:\Source\Temp\angularjs-test\AngularWebApp\bin\Debug\netcoreapp1.1\AngularWebApp.runtimeconfig.dev.json
+C:\Source\Temp\angularjs-test\AngularWebApp\bin\Debug\netcoreapp1.1\AngularWebApp.dll
+C:\Source\Temp\angularjs-test\AngularWebApp\bin\Debug\netcoreapp1.1\AngularWebApp.pdb
+C:\Source\Temp\angularjs-test\AngularWebApp\obj\Debug\netcoreapp1.1\AngularWebApp.csprojResolveAssemblyReference.cache
+C:\Source\Temp\angularjs-test\AngularWebApp\obj\Debug\netcoreapp1.1\AngularWebApp.AssemblyInfo.cs
+C:\Source\Temp\angularjs-test\AngularWebApp\obj\Debug\netcoreapp1.1\AngularWebApp.dll
+C:\Source\Temp\angularjs-test\AngularWebApp\obj\Debug\netcoreapp1.1\AngularWebApp.pdb

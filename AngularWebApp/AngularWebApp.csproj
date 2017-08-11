@@ -16,6 +16,32 @@
     </Content>
     <Content Include="wwwroot\module3-solution\app.js" />
     <Content Include="wwwroot\module3-solution\foundItems.html" />
+    <Content Include="wwwroot\module4-solution\html\categories.html" />
+    <Content Include="wwwroot\module4-solution\html\category_list.html" />
+    <Content Include="wwwroot\module4-solution\html\home.html" />
+    <Content Include="wwwroot\module4-solution\html\items.html" />
+    <Content Include="wwwroot\module4-solution\html\items_list.html" />
+    <Content Include="wwwroot\module4-solution\index.html">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\module4-solution\js\angular-ui-router.min.js" />
+    <Content Include="wwwroot\module4-solution\js\angular.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\module4-solution\js\categories.component.js" />
+    <Content Include="wwwroot\module4-solution\js\categories.controller.js" />
+    <Content Include="wwwroot\module4-solution\js\data.module.js" />
+    <Content Include="wwwroot\module4-solution\js\items.component.js" />
+    <Content Include="wwwroot\module4-solution\js\items.controller.js" />
+    <Content Include="wwwroot\module4-solution\js\menuapp.module.js" />
+    <Content Include="wwwroot\module4-solution\js\menudata.service.js" />
+    <Content Include="wwwroot\module4-solution\js\routes.js" />
+    <Content Include="wwwroot\module4-solution\styles\bootstrap.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\module4-solution\styles\styles.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
     <Content Include="wwwroot\WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>

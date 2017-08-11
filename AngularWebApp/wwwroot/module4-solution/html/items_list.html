@@ -1,0 +1,6 @@
+﻿<div ng-repeat="item in $ctrl.items" class="item">
+	<p class="name">{{ item.name }}</p>
+	<p class="description">{{ item.description }}</p>
+	<p class="price">{{ item.price_small }}</p>
+</div>
+<div ng-if="$ctrl.items.length === 0">No items found in the requested category!</div>
