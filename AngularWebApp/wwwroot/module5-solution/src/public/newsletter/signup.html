@@ -1,0 +1,33 @@
+﻿<div class="container">
+	<form name="formSignup" novalidate>
+		<div class="form-line">
+			<label>First name:</label>
+			<input type="text" name="firstName" ng-model="signupCtrl.userData.firstName" required min-length="2" />
+			<span ng-if="formSignup.firstName.$error.required && formSignup.firstName.$touched">First name is required</span>
+		</div>
+		<div class="form-line">
+			<label>Last name:</label>
+			<input type="text" name="lastName" ng-model="signupCtrl.userData.lastName" required min-length="2" />
+			<span ng-if="formSignup.lastName.$error.required && formSignup.lastName.$touched">Last name is required</span>
+		</div>
+		<div class="form-line">
+			<label>Email:</label>
+			<input type="text" name="email" ng-model="signupCtrl.userData.email" required />
+			<span ng-if="formSignup.email.$error.required && formSignup.email.$touched">Email is required</span>
+		</div>
+		<div class="form-line">
+			<label>Phone number:</label>
+			<input type="text" name="phoneNumber" ng-model="signupCtrl.userData.phoneNumber" required />
+			<span ng-if="formSignup.phoneNumber.$error.required && formSignup.phoneNumber.$touched">Phone number is required</span>
+		</div>
+		<div class="form-line">
+			<label>Menu number:</label>
+			<input type="text" name="menuNumber" ng-model="signupCtrl.userData.menuNumber" required />
+			<span ng-if="formSignup.menuNumber.$error.required && formSignup.menuNumber.$touched">Menu number is required</span>
+			<span ng-if="signupCtrl.menuNumberDoesNotExist">No such menu number exists</span>
+			<span ng-if="signupCtrl.saved">Your information has been saved</span>
+		</div>
+
+		<button class="form-button" ng-disabled="formSignup.$invalid" ng-class="{'disabled': formSignup.$invalid}" ng-click="signupCtrl.signup()">Sign Up</button>
+	</form>
+</div>
